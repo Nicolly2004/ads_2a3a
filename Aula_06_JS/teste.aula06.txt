@@ -1,20 +1,28 @@
 -Abre a pasta amarela 
 -Cria uma pasta fora do pendrive (disco local c)
+(-Entra no gitHub, copia o HTTP do repositório.
+dentro da pasta criada, fazer o clone do repositório)
+(a pasta clonada irá aparecer dentro da outra que foi criada no disco local c)
 
--Entra no gitHub, copia o HTTP do repositório.
-- Abre o git bash dentro da pasta criada e faz o "git clone http..."
-
-(a pasta clonada irá aparecer dentro da oura que foi criada no disco local c)
-(clicar nela e abrir o git bash dentro da pasta clonada, ela já estará sendo controlada pela main)
+- Clicar na pasta que aparecerá dentro da pasta criada no dico local c.
+- Depois disso, criar uma outra pasta para guardar as informações sobre aquela aula ou outra coisa 
+- Dentro dela, criar um arquivo de texto, por exemplo para poder fazer as alterações
+-fazer o git status para ver as alterações feitas
+- git add . para adicionar tudo
+(clicar nela e abrir o git bash dentro da pasta, ela já estará sendo controlada pela main)
 
 -Faz o comando "git config ---global user.name "Nicolly Reis", para definir o nome de quem está usando e faz "git config ---global user.email "nicollyro2004@gmail.com"
 - Faz o "git log" pra saber quem está usando.
 
--  se um documento de texto ou qualquer alteração for criada dentro da pasta clonada fazer o git status para ver as alterações feitas
 
 -fazer o "git commit -m "descrição"
 -fazer 2x o "git push -u origin main ou master"
+
 - Na segunda vez que o push for feito, ele vai funcionar e ai será necessário criar um token pelo gitHub.
+(Ir na sua foto de perfil do github e ir ate "settings", ir até "developer settings", clilar em "personal access tokens", clicar em "tokens(classic)", escolher o nome do token e customizar ele para quantos dias será válido,dar todas as permissões dele e gerar o token)
+(Copiar ele e inserir na janela que abriu com o git push -u orirgin main)
 
 
 
+
+Construtor tem o mesmo nome da classe e não retorna nada, não pode por void
