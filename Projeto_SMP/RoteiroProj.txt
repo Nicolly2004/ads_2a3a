@@ -1,0 +1,2 @@
+nodemon - monitora todos os arquivos JS
+./ - no linux, é para executar arquivo
